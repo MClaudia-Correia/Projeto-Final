@@ -18,18 +18,9 @@ body{
 
 .nav-menu{
     font-size:15px;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px grey;
-    text-transform: uppercase;
+    text-shadow: 1px 1px 1px blue;
+   text-transform: uppercase;
 }
-.nav-menu-logo{
-    font-size:28px;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px grey;
-    text-transform: uppercase;
-}
-
-
 
 
 .logo {
@@ -63,7 +54,7 @@ body{
     padding: 10px;
 }
 .imagem-sobre{
-    width:40%;
+    width:80%;
     padding:10px;
 }
 
@@ -82,53 +73,71 @@ body{
 
 
 
-.container-carousel {
+.div-carousel {
    align-items:center;
-   width:100%;
+   width:50%;
    margin-top:7%;
-   margin-left: 10%;
+   margin: 0 auto;
 }
+
+.img-carousel {
+width: 100%;
+
+}
+
+
 
 
     /*Redes Sociais */
 .container-social {
-   margin-top:7%;
-   margin-right: 10%;
-   width: 380px;
-   height: 260px;
+   margin: 0 auto;
+   margin-top: 100px;
+   padding:50px 100px;
+   width: 50%;
+   /*height: 210px;*/
     border-width:2px;
     border-style:solid;
     border-radius: 15px;
     border-color:rgb(236, 236, 12);
     background-color: rgb(235, 235, 88);
-    margin-right: 20%;
+    
 }
 .paragrafo {
     font-size: 16px;
+    font-weight: bold;
 }
 .icon-social {
     align-self: flex-start;
     font-size: 40px;
-    color: #70f348
+    color: #6cf543
 }
-.paragrafo2 {
-    font-size: 16px;
 
-}
+  
+
+
+    
+
 .icon-facebook {
-
-    align-self:flex-end;
     font-size: 40px;
     color:rgb(82, 82, 204);
+    padding:5px;
+  
 }
 .icon-instagram {
-    align-self: flex-end;
-    font-size: 40px;
+   font-size: 40px;
     color: rgb(202, 58, 94);
+    padding: 5px;
+   
+    
+    
 }
 .footer{
-    margin-top: 10%;
-   width:100%;
+    background-color: #5396eecc;
+    padding: 3px;
+    color:white;
+   text-align: center;
+    margin-top: 15%;
+   font-weight: bold;
   
 }
     
@@ -145,4 +154,17 @@ body{
         width:90%;
         padding:10px;
     }
+
+    
+}
+
+
+@media(max-width:620px) {
+.container-social {
+ width: 80%;
+
+
+}
+
+
 }

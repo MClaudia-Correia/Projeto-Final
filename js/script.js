@@ -1,7 +1,7 @@
 
 $(document).ready(function () {
      $(document).scroll(function(){
-          if(window.scrollY > 200){
+          if(window.scrollY > 400){
           console.log('oi')
 $('#imgmulher').fadeIn('slow');
           }
