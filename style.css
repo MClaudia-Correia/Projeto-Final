@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: white;
+    font-family: 'Junge', serif;
+
+}
+
+
+.div-nav {
+    
+    background-color: #5396eecc;
+     
+}
+
+.nav-menu{
+    font-size:15px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px grey;
+    text-transform: uppercase;
+}
+.nav-menu-logo{
+    font-size:28px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px grey;
+    text-transform: uppercase;
+}
+
+
+
+
+.logo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    height: 400px;
+}
+
+.img-logo {
+    width: 330px;
+    height: 315px;
+
+}
+.link-sobre {
+    width: 90%;
+    margin:0 auto;
+    text-align: center;
+    margin-top: 70px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color:rgb(236, 236, 12);
+    background-color: rgb(235, 235, 88);
+    background-size: 150mm;
+    margin-bottom: 40px;
+    padding: 30px;
+}
+.texto-sobre{
+    width:40vw;
+    padding: 10px;
+}
+.imagem-sobre{
+    width:40%;
+    padding:10px;
+}
+
+.imgfade {
+    display:none;
+    margin-bottom: 40px;
+}
+
+/*.imgfade img {
+    opacity: 1;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -ms-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;*/
+
+
+
+.container-carousel {
+   align-items:center;
+   width:100%;
+   margin-top:7%;
+   margin-left: 10%;
+}
+
+
+    /*Redes Sociais */
+.container-social {
+   margin-top:7%;
+   margin-right: 10%;
+   width: 380px;
+   height: 260px;
+    border-width:2px;
+    border-style:solid;
+    border-radius: 15px;
+    border-color:rgb(236, 236, 12);
+    background-color: rgb(235, 235, 88);
+    margin-right: 20%;
+}
+.paragrafo {
+    font-size: 16px;
+}
+.icon-social {
+    align-self: flex-start;
+    font-size: 40px;
+    color: #70f348
+}
+.paragrafo2 {
+    font-size: 16px;
+
+}
+.icon-facebook {
+
+    align-self:flex-end;
+    font-size: 40px;
+    color:rgb(82, 82, 204);
+}
+.icon-instagram {
+    align-self: flex-end;
+    font-size: 40px;
+    color: rgb(202, 58, 94);
+}
+.footer{
+    margin-top: 10%;
+   width:100%;
+  
+}
+    
+    
+
+
+
+@media(max-width:990px) {
+    .texto-sobre{
+    width:80vw;
+        padding: 10px;
+    }
+    .imagem-sobre {
+        width:90%;
+        padding:10px;
+    }
+}
